@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+  "python.autoComplete.extraPaths": ["${workspaceFolder}"],
+  "editor.tabSize": 4,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.venv": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/allocation.egg-info": true
+  },
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ]
+}
