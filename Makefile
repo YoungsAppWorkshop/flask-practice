@@ -7,3 +7,9 @@ debug:
 
 init:
 	flask init-db
+
+test:
+	coverage run -m pytest
+
+report:	test
+	coverage report

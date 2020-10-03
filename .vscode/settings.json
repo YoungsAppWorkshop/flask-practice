@@ -15,7 +15,8 @@
     "**/__pycache__": true,
     "**/allocation.egg-info": true
   },
-  "python.analysis.extraPaths": [
-    "${workspaceFolder}"
-  ]
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "[sql]": {
+    "editor.formatOnSave": false
+  }
 }
